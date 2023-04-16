@@ -12,6 +12,11 @@ class artikel with ChangeNotifier {
 
   String baseurl = "https://kesehatan-f98b1-default-rtdb.firebaseio.com/";
 
+  Article selectById(String id) {
+    return _allarticle.firstWhere((element) => element.id == id,
+        orElse: () => null as Article);
+  }
+
   Future<void> addArticle(image, title, description, comment) async {
     var url = Uri.parse("$baseurl/article.json");
     try {

@@ -5,6 +5,7 @@ import 'package:kesehatan/provider/artikelProvider.dart';
 import 'package:provider/provider.dart';
 
 import 'addArtikelPage.dart';
+import 'detailArtikelPage.dart';
 import 'loginPage.dart';
 
 class ArtikelPage extends StatefulWidget {
@@ -102,6 +103,17 @@ class _ArtikelPageState extends State<ArtikelPage> {
                             ),
                             borderRadius: BorderRadius.circular(10),
                             color: Colors.grey[300],
+                          ),
+                          child: GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => DetailArtikelPage(
+                                          id: allArticle[index].id,
+                                        )),
+                              );
+                            },
                           ),
                         ),
                       ],
