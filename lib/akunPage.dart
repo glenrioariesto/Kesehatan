@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kesehatan/editProfilPage.dart';
 import 'artikelPage.dart';
 import 'homePage.dart';
 
@@ -41,30 +42,32 @@ class AkunPage extends StatelessWidget {
             leading: Icon(Icons.person),
             title: Text('Edit Profile'),
             onTap: () {
-              showDialog(
-                context: context,
-                builder: (BuildContext context) {
-                  return AlertDialog(
-                    title: Text('Edit Profile'),
-                    content: Text('Here you can change your app settings.'),
-                    actions: <Widget>[
-                      TextButton(
-                        child: Text('CANCEL'),
-                        onPressed: () {
-                          Navigator.of(context).pop();
-                        },
-                      ),
-                      TextButton(
-                        child: Text('OK'),
-                        onPressed: () {
-                          // Perform the desired action on OK button press
-                          Navigator.of(context).pop();
-                        },
-                      ),
-                    ],
-                  );
-                },
-              );
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => Editprofile()));
+              // showDialog(
+              //   context: context,
+              //   builder: (BuildContext context) {
+              //     return AlertDialog(
+              //       title: Text('Edit Profile'),
+              //       content: Text('Here you can change your app settings.'),
+              //       actions: <Widget>[
+              //         TextButton(
+              //           child: Text('CANCEL'),
+              //           onPressed: () {
+              //             Navigator.of(context).pop();
+              //           },
+              //         ),
+              //         TextButton(
+              //           child: Text('OK'),
+              //           onPressed: () {
+              //             // Perform the desired action on OK button press
+              //             Navigator.of(context).pop();
+              //           },
+              //         ),
+              //       ],
+              //     );
+              //   },
+              // );
             },
           ),
           ListTile(
