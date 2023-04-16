@@ -1,0 +1,28 @@
+[debug] [2023-04-16T06:05:17.356Z] ----------------------------------------------------------------------
+[debug] [2023-04-16T06:05:17.359Z] Command:       /usr/local/bin/firebase /home/rio/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase projects:list --json
+[debug] [2023-04-16T06:05:17.360Z] CLI Version:   11.24.1
+[debug] [2023-04-16T06:05:17.360Z] Platform:      linux
+[debug] [2023-04-16T06:05:17.360Z] Node Version:  v16.16.0
+[debug] [2023-04-16T06:05:17.361Z] Time:          Sun Apr 16 2023 13:05:17 GMT+0700 (Western Indonesia Time)
+[debug] [2023-04-16T06:05:17.361Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-16T06:05:17.369Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-16T06:05:17.370Z] > authorizing via signed-in user (glenrioariesto@gmail.com)
+[debug] [2023-04-16T06:05:17.376Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2023-04-16T06:05:18.395Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-04-16T06:05:18.395Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] ┌──────────────────────┬───────────────────┬────────────────┬──────────────────────┐
+│ Project Display Name │ Project ID        │ Project Number │ Resource Location ID │
+├──────────────────────┼───────────────────┼────────────────┼──────────────────────┤
+│ Kesehatan            │ kesehatan-f98b1   │ 370210575325   │ [Not specified]      │
+├──────────────────────┼───────────────────┼────────────────┼──────────────────────┤
+│ Menu Master          │ menu-master-9c309 │ 927992387719   │ [Not specified]      │
+└──────────────────────┴───────────────────┴────────────────┴──────────────────────┘
+[info] 
+[info] 2 project(s) total.
+[debug] [2023-04-16T06:05:24.938Z] Error: Timed out.
+    at Timeout.<anonymous> (/home/rio/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.

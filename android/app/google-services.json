@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "370210575325",
+    "project_id": "kesehatan-f98b1",
+    "storage_bucket": "kesehatan-f98b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370210575325:android:5e14a90d33482b1d4d9c34",
+        "android_client_info": {
+          "package_name": "com.example.kesehatan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370210575325-si851v3uke2f0v2c85f247rjbmi27nbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kesehatan",
+            "certificate_hash": "959b2ccaa1228275a3cfea5070c0d32158e96f41"
+          }
+        },
+        {
+          "client_id": "370210575325-7dn9t48ervsa7ojmu5s199i1nangk4ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsusQgZSZZixrghGLI_8crZBan5O_EGvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370210575325-7dn9t48ervsa7ojmu5s199i1nangk4ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
